@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459832035251",
+    "project_id": "deliv-4b593",
+    "storage_bucket": "deliv-4b593.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459832035251:android:a78109001c0e76de5dedc6",
+        "android_client_info": {
+          "package_name": "deliv.user.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzyNqEFNHdeyng_HsTs7HB-qVQO_EnW_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
