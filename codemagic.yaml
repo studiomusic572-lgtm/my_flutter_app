@@ -10,6 +10,14 @@ workflows:
       - name: Flutter packages
         script: flutter pub get
 
+      - name: Clean iOS pods
+        script: |
+          cd ios
+          rm -rf Pods Podfile.lock
+          pod repo update
+          pod install
+          cd ..
+
       - name: Build iOS release
         script: flutter build ios --release
 
